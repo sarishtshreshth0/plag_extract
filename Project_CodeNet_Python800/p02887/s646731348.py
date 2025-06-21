@@ -1,0 +1,7 @@
+n = int(input())
+s = str(input())
+ans = s[0]
+for i in range(1,n):
+    if ans[-1]!=s[i]:
+        ans += s[i]
+print(len(ans))

@@ -1,0 +1,6 @@
+xy = input().split()
+x = int(xy[0])
+y = int(xy[1])
+
+
+print(x + y // 2)

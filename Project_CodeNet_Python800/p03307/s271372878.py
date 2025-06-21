@@ -1,0 +1,1 @@
+n=int(input());print(n*2if n%2else n)

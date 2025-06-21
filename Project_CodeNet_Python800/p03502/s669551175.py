@@ -1,0 +1,5 @@
+n=int(input())
+if n % sum([int(i) for i in list(str(n))]) == 0:
+  print("Yes")
+else:
+  print("No")

@@ -1,0 +1,5 @@
+Q, H, S, D = map(int, input().split())
+N = int(input())
+S = min(S, 4*Q, 2*H)
+D = min(D, 2*S)
+print(D*(N//2) if N % 2 == 0 else D*(N//2) + S)

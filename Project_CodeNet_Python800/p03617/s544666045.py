@@ -1,0 +1,5 @@
+q, h, s, d = map(int, input().split())
+n = int(input())
+s = min(q*4, h*2, s)
+if s*2 <= d: print(s*n)
+else: print(d*(n//2) + s*(n%2))

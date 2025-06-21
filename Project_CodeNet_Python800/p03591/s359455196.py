@@ -1,0 +1,1 @@
+print(["Yes", "No"][not(input()[:4] == "YAKI")])

@@ -1,0 +1,1 @@
+H,W = map(int, input().split());print(1 if 1 in (H,W) else -(-H*W//2))

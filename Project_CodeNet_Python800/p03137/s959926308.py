@@ -1,0 +1,1 @@
+N,M,*X=map(int,open(0).read().split());X.sort();print(0if N>=M else sum(sorted(abs(X[i+1]-X[i])for i in range(M-1))[:M-N]))

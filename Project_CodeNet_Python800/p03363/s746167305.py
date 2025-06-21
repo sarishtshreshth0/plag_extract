@@ -1,0 +1,1 @@
+from itertools import*;from collections import*;input();*A,=accumulate(map(int,input().split()));print(sum(j*~-j//2for j in Counter([0]+A).values()))

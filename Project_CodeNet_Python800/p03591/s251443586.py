@@ -1,0 +1,1 @@
+import re;print('YNeos'[not bool(re.fullmatch(r'^YAKI.*',input()))::2])

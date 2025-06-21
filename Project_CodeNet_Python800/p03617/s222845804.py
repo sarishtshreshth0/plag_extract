@@ -1,0 +1,9 @@
+Q,H,S,D=map(int,input().split())
+N=int(input())
+N2,N1=divmod(N,2)
+tmp2=min(8*Q,4*H,2*S,D)
+tmp1=min(4*Q,2*H,S)
+ans2=N2*tmp2
+ans1=N1*tmp1
+ans=ans1+ans2
+print(ans)

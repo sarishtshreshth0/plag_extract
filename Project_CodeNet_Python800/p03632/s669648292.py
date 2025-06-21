@@ -1,0 +1,5 @@
+a,b,c,d=map(int,input().split())
+n = max(a,c)
+m = min(b,d)
+if(m<=n):print(0);exit()
+else:print(m-n)

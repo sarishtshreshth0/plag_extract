@@ -1,0 +1,9 @@
+N = int(input())
+
+ans = 10**18
+
+for i in range(1, int(N**0.5)+1):
+    if N % i == 0:
+        b = N//i
+        ans = min(ans, max( len(str(i)),  len(str(b))))
+print(ans)

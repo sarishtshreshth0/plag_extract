@@ -1,0 +1,1 @@
+print(sum([i//500*1000+i%500//5*5 for i in [int(input())]]))

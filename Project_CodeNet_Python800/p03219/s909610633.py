@@ -1,0 +1,5 @@
+import sys
+input = sys.stdin.readline
+
+X,Y = list(map(int,input().split()))
+print(X+Y//2)

@@ -1,0 +1,5 @@
+A,B,C,D=list(map(int,input().split()))
+AB=set(tuple(list(range(A,B+1))))
+CD=set(tuple(list(range(C,D+1))))
+f=AB.intersection(CD)
+print(max(len(f)-1,0))

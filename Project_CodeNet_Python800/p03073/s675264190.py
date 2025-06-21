@@ -1,0 +1,6 @@
+S = input()
+White = '10'*(len(S)//2)+'1'*(len(S)%2)
+Black = '01'*(len(S)//2)+'0'*(len(S)%2)
+WD = len([X for X in map(set,zip(S,White)) if len(X)==2])
+BD = len([X for X in map(set,zip(S,Black)) if len(X)==2])
+print(min(WD,BD))

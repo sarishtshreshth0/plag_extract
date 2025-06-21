@@ -1,0 +1,5 @@
+Q,H,S,D = map(int,input().split())
+N = int(input())
+X = min(4*Q,2*H,S)
+Y = min(2*X,D)
+print((N//2)*Y+(N%2)*X)

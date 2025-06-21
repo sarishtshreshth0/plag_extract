@@ -1,0 +1,15 @@
+import sys
+
+def main():
+    N = int(input())
+    W = list(map(int, input().split()))
+    min_diff = sys.maxsize
+    for i in range(1, N+1):
+        diff = abs(sum(W[:i]) - sum(W[i:]))
+        if diff < min_diff:
+            min_diff = diff
+    print(min_diff)
+
+
+if __name__ == '__main__':
+    main()

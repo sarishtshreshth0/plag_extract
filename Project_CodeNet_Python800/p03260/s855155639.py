@@ -1,0 +1,1 @@
+print(["Yes","No"][eval(input().replace(" ","*"))%2==0])

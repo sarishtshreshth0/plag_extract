@@ -1,0 +1,1 @@
+print('Yes') if input().startswith('YAKI') else print('No')

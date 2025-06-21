@@ -1,0 +1,1 @@
+print(["No","Yes"][input().startswith("YAKI")])

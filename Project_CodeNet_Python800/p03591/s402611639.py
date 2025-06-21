@@ -1,0 +1,1 @@
+print('Yes' if input().find('YAKI') == 0 else 'No')

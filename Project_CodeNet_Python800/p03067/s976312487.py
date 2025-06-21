@@ -1,0 +1,1 @@
+print("YNeos"[(lambda x:x[2]>max(x[0],x[1])or x[2]<min(x[0],x[1]))(list(map(int,input().split())))::2])

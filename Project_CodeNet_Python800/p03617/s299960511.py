@@ -1,0 +1,5 @@
+q, h, s, d = map(int, input().split())
+n = int(input())
+L1=min(q*4,h*2,s)
+L2=min(L1*2,d)
+print(n//2*L2+n%2*L1)

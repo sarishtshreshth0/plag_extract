@@ -1,0 +1,1 @@
+S=input()[:4];print('YNeos'[S!='YAKI'::2])

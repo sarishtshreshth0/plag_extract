@@ -1,0 +1,5 @@
+q,h,s,d = map(int,input().split())
+n = int(input())
+l1 = min([4*q,2*h,s])
+ans = min(l1*n,d*(n//2) if n%2 == 0 else d*(n//2)+l1)
+print(ans)

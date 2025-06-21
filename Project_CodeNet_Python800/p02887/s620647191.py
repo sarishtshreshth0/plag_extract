@@ -1,0 +1,1 @@
+import itertools;N = int(input());print(len([k for k, v in itertools.groupby(input())]))

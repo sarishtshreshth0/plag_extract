@@ -1,0 +1,1 @@
+n=int(input());s=input();print(1+sum([s[i-1]!=s[i] for i in range(1,n)]))

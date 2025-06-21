@@ -1,0 +1,1 @@
+N=int(input());print(N+N*(int(N%2!=0)))

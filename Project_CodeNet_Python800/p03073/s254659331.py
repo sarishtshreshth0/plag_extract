@@ -1,0 +1,6 @@
+s = input()
+be = s[::2].count('0')
+bo = s[1::2].count('0')
+we = s[::2].count('1')
+wo = s[1::2].count('1')
+print(min(be + wo, bo + we))

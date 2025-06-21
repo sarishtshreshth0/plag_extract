@@ -1,0 +1,1 @@
+a,b=map(lambda x:(int(x)+11)%13,input().split());print("Alice"if a>b else"Draw"if a==b else"Bob")

@@ -1,0 +1,1 @@
+print(("No","Yes")[input().find("YAKI")==0])

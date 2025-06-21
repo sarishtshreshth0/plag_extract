@@ -1,0 +1,1 @@
+print(sum([int(x)//(i+1) for i,x in enumerate(input().split())]))

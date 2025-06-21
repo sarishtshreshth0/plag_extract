@@ -1,0 +1,5 @@
+Q,H,S,D = list(map(int, input().split()))
+N = int(input())
+minone = min(4*Q, 2*H, S)
+mintwo = min(minone*2, D)
+print(N//2 * mintwo + N%2 * minone)

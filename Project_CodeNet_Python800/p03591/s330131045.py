@@ -1,0 +1,1 @@
+print(["No","Yes"][input()[0:4]=="YAKI"])

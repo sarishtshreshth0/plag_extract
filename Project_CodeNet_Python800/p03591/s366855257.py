@@ -1,0 +1,1 @@
+print(['Yes','No'][input()[:4]!='YAKI'])

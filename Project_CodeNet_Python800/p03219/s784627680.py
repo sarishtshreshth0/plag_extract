@@ -1,0 +1,1 @@
+print(int(eval("+".join(map(str,input().split()))+"/2")))
